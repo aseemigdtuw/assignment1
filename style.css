@@ -1,0 +1,35 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg)
+    }
+    0% {background-color: red;}
+    10% {background-color: blue;}
+    20% {background-color: rgb(235, 232, 21);}
+    30% {background-color: rgb(184, 25, 228)}
+    40% {background-color: rgb(44, 237, 44);}
+    50% {background-color: rgb(255, 0, 174);}
+    60% {background-color: aqua;}
+    70% {background-color: rgb(208, 249, 58)}
+    80% {background-color: rgb(73, 162, 234);}
+    90% {background-color: rgb(240, 39, 119);}
+    100% {background-color: rgb(8, 239, 181);}
+}
+.h1 {
+    animation: rotate 4s infinite alternate both;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    display:inline-block;
+    color: rgb(1, 19, 1);
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 20px 50px 20px;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 200px;
+    margin-left: 300px;
+    background-color: red; 
+}
