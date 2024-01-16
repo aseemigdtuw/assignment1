@@ -17,8 +17,12 @@
     90% {background-color: rgb(240, 39, 119);}
     100% {background-color: rgb(8, 239, 181);}
 }
-.h1 {
-    animation: rotate 4s infinite alternate both;
+.h1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 0.1s;
+    animation: rotate 7s infinite alternate both;
     animation-timing-function: linear;
     border-radius: 50%;
     display:inline-block;
@@ -26,10 +30,17 @@
     font-size: 50px;
     letter-spacing: 2px;
     padding: 20px 50px 20px;
-    position: relative;
+    position: fixed;
     text-transform: uppercase;
-    vertical-align: top;
-    margin-top: 200px;
-    margin-left: 300px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 350px;
     background-color: red; 
 }
+.h1:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
